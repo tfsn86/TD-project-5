@@ -124,6 +124,12 @@ header h1 {
 	text-transform: capitalize;
 }
 
+#no-employee-found {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	color: rgba(50, 50, 50, 0.7);
+}
+
 /* ===================================== 
    Modal
 ======================================== */
@@ -192,9 +198,7 @@ header h1 {
 	max-width: 420px;
 	padding: 10px 15px 15px;
 	margin: 10px auto auto;
-	background: rgba(255, 255, 255, 1);
-	border-radius: 0.25em;
-	border: 1px solid rgba(100, 100, 100, 0.3);
+	background: #edf5e1;
 }
 
 .modal-btn-container .btn {
